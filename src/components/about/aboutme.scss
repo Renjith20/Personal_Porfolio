@@ -1,0 +1,78 @@
+.aboutme{
+    background: linear-gradient(180deg,#0c0c1d,#111132);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        gap :50px;
+        align-items: center;
+        justify-content: center;
+        .titleContainer{
+            flex: 1;
+            margin: 10px; 
+            height: 100%;
+
+            p{
+                margin-top: 50px;
+                font-weight: 200;
+                font-size: 20px;
+                letter-spacing: 2.4px;
+                text-align: left;
+                margin-left: 10px;
+             }
+    
+            h1{
+                text-align: center;
+                margin-top: 70px;
+                font-size: 96px;
+                font-weight: 100;
+            }
+    
+            button{
+                width: 150px;
+                height: 60px;
+                border-radius: 10px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+                margin-top: 10px;
+                margin-left: 10px;
+                
+            }
+        }
+    
+        .skillContainer{
+            flex: 1;
+            height: 100%;
+            margin: 10px;  
+            text-align: center;
+            
+    
+            h1{
+                margin-top: 70px;
+                font-size: 96px;
+                font-weight: 100;
+            }
+    
+            img{
+                width: 150px;
+                height: 50px;
+                margin-top: 50px;
+                
+            }
+    
+        }
+
+    }
+    
+}
