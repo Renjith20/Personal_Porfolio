@@ -66,7 +66,7 @@ const Hero = () => {
             Full Stack Java with React
         </motion.div>
        <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/hero11.png" alt="" />
         </div> 
    </div>
   )
