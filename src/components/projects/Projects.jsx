@@ -5,13 +5,13 @@ import {motion , useScroll, useSpring, useTransform} from "framer-motion";
 const items = [
     {
     id:1,
-    title:"MedStore - Medicine Management",
+    title:"MedStore ",
     img:"https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&w=800",
     desc:" Introducing a medical store management application using java, spring, mysql. Empowering users with seamless Signup/Login functionality , medicine management and powerful search capacities.Once you logged in ,users have the ability to manage their medicines to update , delete view or even to search.",
 },
 {
     id:2,
-    title:"Chargify - EV Charging Station Booking App",
+    title:"Chargify",
     img:"https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=800",
     desc:"An Android Application coded in Java Language using Android Studio. Backend is implemented using Firebase. CHARGIFY app helps you locate the charging stations and reserve the charger slot for the user vehicle.",
 },
@@ -84,7 +84,7 @@ const Projects = () => {
   return (
     <div className="projects" ref={ref}>
         <div className="progress">
-            <h1>Latest Projects</h1>
+            <motion.h1 whileHover={{color:"orange"}}>Latest Projects</motion.h1>
             <motion.div style={{scaleX}} className="progressBar">
             </motion.div>
         </div>
