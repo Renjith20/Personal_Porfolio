@@ -60,7 +60,7 @@ const Contact = () => {
             </motion.div>
          </motion.div>
          <div className="formContainer">
-            <motion.div className="phoneSvg"
+            {/* <motion.div className="phoneSvg"
                 initial={{opacity:1}} 
                 whileInView={{opacity:0}} 
                 transition={{delay:3, duration: 1}}>
@@ -85,12 +85,13 @@ const Contact = () => {
 		    c-5.569,5.905-5.301,15.206,0.594,20.776c5.894,5.578,15.205,5.32,20.784-0.584c15.54-16.46,28.937-34.976,39.712-55.139
 		    C501.071,340.717,512,299.589,512,256C511.98,114.604,397.389,0.012,255.998,0.002z"/>
             </svg>
-            </motion.div>
+            </motion.div> */}
             <motion.form ref={formRef}
             onSubmit={sendEmail}
-            initial={{opacity:0}} 
-                whileInView={{opacity:1}} 
-                transition={{delay:4, duration: 1}}>
+            // initial={{opacity:0}} 
+            //     whileInView={{opacity:1}} 
+            //     transition={{delay:4, duration: 1}}
+            >
                 <input type="text" placeholder="Name" required name="name"/>
                 <input type="email" required placeholder="Email" name="email" />
                 <textarea rows={8} placeholder="Message" name="message"/>

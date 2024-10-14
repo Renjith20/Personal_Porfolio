@@ -50,7 +50,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             >
-                <motion.h2 variants={textVariants} whileHover={{color:"white"}}>RENJITH R P</motion.h2>
+                <motion.h2 variants={textVariants}>RENJITH R P</motion.h2>
                 <motion.h1 variants={textVariants} whileHover={{color:"rebeccapurple"}}>Full Stack Developer</motion.h1>
                 <motion.div variants={textVariants} className="buttons">
                     <motion.button variants={textVariants}>Latest Projects</motion.button>
@@ -65,7 +65,7 @@ const Hero = () => {
          animate="animate">
             Full Stack Java with React
         </motion.div>
-       <div className="imageContainer">
+        <div className="imageContainer">
         <img src="/hero11.png" alt="" />
         </div> 
    </div>

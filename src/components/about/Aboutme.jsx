@@ -44,9 +44,9 @@ const Aboutme = () => {
                 opportunity to put my skills into practice within a dynamic team. If my profile interests you, I would 
                 be happy to talk with you to discuss opportunities.</p>
                 <button>Resume</button>
-        </motion.div>
-        <motion.div className="skillContainer" variants={variants} >
-            <motion.h1 whileHover={{color:"orange"}}><b>What I Know ?</b></motion.h1>
+                </motion.div>
+          <motion.div className="skillContainer" variants={variants} >
+            <motion.h1 whileHover={{color:"orange"}}><b>What I Know?</b></motion.h1>
             <img src="html1.svg" alt="html logo" />
             <img src="css1.svg" alt="css logo" />
             <img src="bootstrap.svg" alt="bootstrap logo" />
@@ -56,7 +56,8 @@ const Aboutme = () => {
             <img src="mysql.svg" alt="sql logo" />
             <img src="postgresql.svg" alt="postgresql logo" />
             <img src="react.svg" alt="react logo" />
-        </motion.div>
+        </motion.div>       
+        
       </div>
     </motion.div>
   )
